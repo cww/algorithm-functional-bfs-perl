@@ -104,6 +104,8 @@ sub search
 {
     my ($self, $start_node) = @_;
 
+    confess 'Start node must be defined' unless $start_node;
+
     # Short circuit if the start node matches the victory condition.
     return [ [ $start_node ] ] if
         $self->{include_start_node} && $self->{victory_func}->($start_node);
