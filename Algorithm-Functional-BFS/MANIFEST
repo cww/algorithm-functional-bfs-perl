@@ -11,5 +11,6 @@ t/99-run_test_classes.t
 t/tests/Test/ComplexGraph.pm
 t/tests/Test/CyclicGraph.pm
 t/tests/Test/ObjectsAsNodes.pm
+t/tests/Test/Parameters.pm
 t/tests/Test/SingletonGraph.pm
 t/tests/Test/StartNodeInclusion.pm
