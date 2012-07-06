@@ -6,7 +6,8 @@ use Carp;
 
 =head1 NAME
 
-Algorithm::BFS - A functional approach to the breadth-first-search algorithm.
+Algorithm::Functional::BFS - A functional approach to the breadth-first
+search algorithm.
 
 This implementation supports both cyclic and acyclic graphs but does not
 support edge or vertex weighting.
@@ -21,10 +22,10 @@ our $VERSION = '0.01';
 
 =head1 SYNOPSIS
 
-    use Algorithm::BFS;
+    use Algorithm::Functional::BFS;
 
     # Create your object.
-    my $bfs = Algorithm::BFS->new
+    my $bfs = Algorithm::Functional::BFS->new
     (
         adjacent_nodes_func => $some_func,
         victory_func        => $some_other_func,
@@ -39,7 +40,7 @@ our $VERSION = '0.01';
 
 =head2 new(%params)
 
-Create a new Algorithm::BFS object with the specified parameters.
+Create a new Algorithm::Functional::BFS object with the specified parameters.
 
 Required parameters:
 
